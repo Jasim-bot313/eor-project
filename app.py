@@ -97,9 +97,9 @@ n = st.sidebar.number_input("n (water Corey exponent)", min_value=0.01, value=2.
 st.sidebar.markdown("---")
 st.sidebar.subheader("Reservoir & Flood Inputs (optional)")
 phi = st.sidebar.number_input("φ (porosity)", min_value=0.001, max_value=0.9, value=0.20, step=0.01, format="%.4f")
-h = st.sidebar.number_input("h (net thickness, m)", min_value=0.01, value=10.0, step=1.0, format="%.4f")
-A = st.sidebar.number_input("A (pattern area, m²)", min_value=1.0, value=10000.0, step=500.0, format="%.2f")
-q = st.sidebar.number_input("q (injection rate, m³/day)", min_value=0.0001, value=100.0, step=10.0, format="%.4f")
+h = st.sidebar.number_input("h (net thickness, ft)", min_value=0.01, value=10.0, step=1.0, format="%.4f")
+A = st.sidebar.number_input("A (pattern area, ft²)", min_value=1.0, value=10000.0, step=500.0, format="%.2f")
+q = st.sidebar.number_input("q (injection rate, bbl/day)", min_value=0.0001, value=100.0, step=10.0, format="%.4f")
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Sweep Inputs (Task 3/4)")
